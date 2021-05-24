@@ -3,7 +3,6 @@ import {Selector} from './selectorInterface';
 import {UiOptions as Options} from './uiOptionsInterface';
 import printer from '../support/utils/log';
 import timeService from '../services/entries/timeService';
-import objectManager from '../steps/support/objectManager';
 
 
 export default class BaseObject {
