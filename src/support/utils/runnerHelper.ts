@@ -62,7 +62,7 @@ export const cucumberHtmlGenerate = () => {
         scenarioTimestamp: true,
         launchReport: false,
         brandTitle: 'Smoke suite',
-        screenshotsDirectory: 'screenshots/',
+        // screenshotsDirectory: 'screenshots/',
         storeScreenshots: true,
         metadata: {
             'Test Environment': 'Dev',
