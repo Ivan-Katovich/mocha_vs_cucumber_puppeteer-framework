@@ -36,7 +36,7 @@ export default class Ui extends BaseObject {
 
     public async open() {
         this.page = await this.browser.newPage();
-        await this.page.goto('https://qa.ipmanagementsolution.com/tipms2/ATDV/UI/', {
+        await this.page.goto('https://localhost', {
             timeout: 120000,
             waitUntil: 'networkidle0'
         });
