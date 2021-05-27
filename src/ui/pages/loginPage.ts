@@ -25,10 +25,10 @@ export default class LoginPage extends BaseObject {
         // const bodyVis = await this.waitTillElementVisible();
         // console.log(bodyVis);
         await this.waitTillElementVisible('userNameField');
-        await this.type('userNameField', 'TestA@cpaglobal.com');
+        await this.type('userNameField', '111@abc.com');
         await this.click('nextButton');
         await this.waitTillElementVisible('passwordField');
-        await this.type('passwordField', 'Jump4Fun!');
+        await this.type('passwordField', 'qwerty');
         await this.click('signInBtn');
         // await this.page.waitForTimeout(20000);
     }
